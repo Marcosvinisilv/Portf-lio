@@ -1,12 +1,36 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Silkscreen&display=swap');
+body{
     margin: 0;
     padding: 0;
+    color: #2a293a;
 }
-.section{
-    width: 800px;;
-    height: 220px;
+.header-container{
+    height: 100vh;
+    width: 100vw;
+    background: url('./img/pngegg.png');
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; /* A contenção permite que o navegador calcule layout, estilo, pintura, tamanho ou qualquer combinação deles para uma área específica do DOM.*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
 }
-.section img{
-    width: 23%;
-    height: auto;
+
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.social-media{
+    margin-top: 1rem;
+    display: flex;
 }
